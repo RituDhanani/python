@@ -17,10 +17,9 @@ elif n==3:
 
 elif n==4:
    duplicates= sum(numbers.count(n)>1 for n in set(numbers))
-  
-print("number of duplicate in numbers ",duplicates)
+   print("number of duplicate in numbers ",duplicates)
 
-elif n==5:
+else:
     print("list without duplicate numberes is ",set(numbers))
 
 
