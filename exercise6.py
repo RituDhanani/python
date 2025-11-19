@@ -1,5 +1,5 @@
-string="PQRQRQRQ"
-substring="QRQ"
+string="QRQSRQRSQRQRSQRQS"
+substring="QRQS"
 
 count=0
 start=0
