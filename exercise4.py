@@ -19,5 +19,3 @@ def sum(number):
     else:
         return number[0]+sum(number[1:])
 print("Sum of given list number is  =",sum(number))
-
-    
