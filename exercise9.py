@@ -9,7 +9,7 @@ def add_days_to_date(start_time:datetime,end_time:datetime):
         next_midnight = midnight + timedelta(hours=6)
         day_end = datetime(current_time.year,current_time.month,current_time.day,23,59,59)
 
-        start=max(current_time,midnight)
+        start=max(current_time,next_midnight)
         end=min(end_time,day_end)
 
         if start < end:
