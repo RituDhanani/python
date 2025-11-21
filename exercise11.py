@@ -29,7 +29,7 @@ def correct_Geometric(arr):
     return arr
 
 ap = [2, 5, 8, 11, 15, 17]
-gp = [3, 6, 9, 12, 16, 18]
+gp = [3, 6, 12, 24, 22, 96]
 
 correct_ap = correct_Arithmetic(ap)
 correct_gp = correct_Geometric(gp)
